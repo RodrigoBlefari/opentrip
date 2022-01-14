@@ -1,0 +1,12 @@
+{
+  "name": "opentrip",
+  "displayName": "opentrip",
+  "expo": {
+    "name": "opentrip",
+    "slug": "opentrip",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
