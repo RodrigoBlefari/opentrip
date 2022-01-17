@@ -1,0 +1,49 @@
+DETALHES DO DESENVOLVIMENTO
+
+EXPO Manager, O Expo gerencia API nativas porém não é gerada as pastas nativas
+android e ios. mas utilizando o expo Bare workflow, além dele gerenciar as apis,
+fica disponivel as pastas nativas para costumizações especificas.
+
+#1 INSTALAÇÃO EXPO  
+    > -npm install --global expo-cli
+
+#2 CRIANDO TEMPLATE
+    O CLI do expo init após a atualização @4.62.0 foi removido dos templates
+    o bare workflow então typescript e template devem ser inseridos como parametro abaixo
+        
+        >  expo init --template expo-template-bare-typescript --name opentrip
+
+#3 RODAR PROJETO
+    Comando expo vai abrir navegador que vai gerenciar a build do projeto.
+        @1 Caso seja emulador, automaticamente ao executar o projeto o emulador vai instalar programa expo client
+            no device.
+        
+        @2  Caso use dispositivo fisico baixar na apples store ou Google play o Expo cliente.
+
+    > expo start
+
+#4 INSTALANDO STYLED COMPONENT
+    Usado para gerenciar, organizar e criar estilizações dinamicas entre outras vantagens.
+        > yarn add styled-components
+            ou
+        > npm install styled-components
+
+    Tipagem do styled component
+        > yarn add @types/styled-components-react-native -D
+            ou
+        > npm install @types/styled-components-react-native -D
+
+#5 INSTALANDO FONTS PERSONALIZADAS
+    > yarn add expo install expo-font @expo-google-fonts/poppins
+    
+
+#6 INSTALANDO EXPO LOADING
+    usado para lidar com carregamento de tela para garantir loading enquanto 
+    as fontes estão sendo carregadas
+    
+        >yarn add expo install expo-app-loading
+
+#7 INSTALANDO REACT NATIVE REPSONSIVE FONTSIZE
+    usado para criar layouts responsivos tratando as densidades de pixel e proporções
+
+    > yarn add react-native-responsive-fontsize
