@@ -42,3 +42,8 @@ fica disponivel as pastas nativas para costumizações especificas.
     as fontes estão sendo carregadas
     
         >yarn add expo install expo-app-loading
+
+#7 INSTALANDO REACT NATIVE REPSONSIVE FONTSIZE
+    usado para criar layouts responsivos tratando as densidades de pixel e proporções
+
+    > yarn add react-native-responsive-fontsize

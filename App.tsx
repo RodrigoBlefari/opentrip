@@ -1,7 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import AppLoading from 'expo-app-loading';
-//yarn add expo-app-loading
 
 import { 
   useFonts,

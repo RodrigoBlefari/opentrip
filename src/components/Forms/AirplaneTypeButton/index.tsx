@@ -15,16 +15,19 @@ import {
 interface Props extends TouchableOpacityProps {
     title: string;
     type: 'business' | 'lazer';
+    ativo: boolean;
 }
-export function AirplaneTypeFormButton({ title, type, ...rest }: Props){
+export function AirplaneTypeButton({ title, type, ativo, ...rest }: Props){
     return (
         <Container 
             type={type}
             {...rest}
+            ativo={ativo}
         >
-            <Icon 
+            <Icon
                 name={icons[type]}
                 type={type}
+                active={ativo}
             />
             <Title>
                 {title}

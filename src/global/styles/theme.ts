@@ -9,6 +9,8 @@ export default {
         title: 'black',
         text: '#969cb2',
         background: '#ffffff',
+
+        blue_light: "#18acf2" 
     },
 
     fonts: {
