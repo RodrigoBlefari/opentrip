@@ -20,7 +20,6 @@ export const Photo = styled.Image`
     width: ${RFValue(48)}px;
     height: ${RFValue(48)}px;
     border-radius: 50px;
-    border: 2px solid ${({ theme }) => theme.colors.blue_light};
 `;
 
 export const Title = styled.Text`
